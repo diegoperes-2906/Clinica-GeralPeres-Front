@@ -8,6 +8,6 @@ export async function loginUsuario(credentials) {
 }
 
 export async function cadastrarUsuario(dados) {
-  const response = await axios.post(`${BASE_URL}/register`, dados);
+  const response = await axios.post(`${BASE_URL}/users`, dados);
   return response.data;
 }
