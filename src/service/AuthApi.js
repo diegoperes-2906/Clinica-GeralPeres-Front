@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8080/auth'; 
+const BASE_URL = 'clinica-geralperes-abcff5fsf2c7hxag.brazilsouth-01.azurewebsites.net/auth'; 
 
 export async function cadastrarUsuario(usuario) {
   const response = await axios.post(`${BASE_URL}/users`, usuario);
